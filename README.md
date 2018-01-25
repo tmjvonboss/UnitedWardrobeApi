@@ -10,7 +10,7 @@ Android + Xposed + SSLUnpinning + Debug Proxy Premium
 
 ## Feedback to the developers of this app
 When reverse engineering the API I noticed a few things such as:
-+ Double User-Agent header when  making requests...
++ Double User-Agent header when  making requests to some endpoints but not all (heartbeat, products have double UA)... (UWAndroid + OKHttp/3.8.0)
 + Always sends your own user_id, I don't know why you guys send the user_id if it doesn't matter what value it is (message/comment spoofing is impossible, so why send the user_id)
 
 ## Usage
